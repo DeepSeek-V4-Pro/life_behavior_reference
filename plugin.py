@@ -2,7 +2,7 @@
 
 本插件面向需要融入人类社会的用户，提供进食、休眠、位移、
 社交等核心生活场景的规范化行为流程参考。
-支持中文（zh）、拉丁语（la）、古希腊语（grc）三语查询。
+支持中文（zh）、拉丁语（la）、古希腊语（grc）、日语（ja）四语查询。
 """
 
 import random
@@ -650,34 +650,34 @@ class LifeBehaviorReferencePlugin(MaiBotPlugin):
 
     HELP_TEXT = {
         "zh": (
-            "📖 生活行为参考手册 v1.0\n"
+            "📖 生活行为参考手册 v1.1.0\n"
             "本手册为有需要的用户提供基础生活行为的标准化操作指引。\n\n"
             "可用条目（共 {count} 项）：\n"
             "{command_list}\n\n"
             "发送 /<行为名称> 获取该行为的标准化操作流程。\n"
-            "支持三语查询：中文 / 拉丁语 / 古希腊语。\n"
-            '中文 /生活参考 | 拉丁语 /index | 古希腊语 /πιναξ'
+            "支持四语查询：中文 / 拉丁语 / 古希腊语 / 日语。\n"
+            '中文 /生活参考 | 拉丁语 /index | 古希腊语 /πιναξ | 日语 /もくじ'
         ),
         "la": (
-            "📖 Enchīridion Signōrum Vītae v1.0\n"
+            "📖 Enchīridion Signōrum Vītae v1.1.0\n"
             "Hoc enchīridion administrātīs quibus opus est praebet moderātiōnēs standardizātās comportāmentōrum vītae fundāmentālium.\n\n"
             "Articulī praestō (numerō {count}):\n"
             "{command_list}\n\n"
             "Mitte /<nōmen āctiōnis> ad prōtocollum standardizātum obtinendum.\n"
-            "Trēs linguae sustinentur: Sinēnsis / Latīna / Graeca Antīqua.\n"
-            "Sinēnsēs /生活参考 | Latīnē /index | Graecē /πιναξ"
+            "Quattuor linguae sustinentur: Sinēnsis / Latīna / Graeca Antīqua / Iapōnica.\n"
+            "Sinēnsēs /生活参考 | Latīnē /index | Graecē /πιναξ | Iapōnicē /もくじ"
         ),
         "grc": (
-            "📖 Ἐγχειρίδιον Σημείων Βίου v1.0\n"
+            "📖 Ἐγχειρίδιον Σημείων Βίου v1.1.0\n"
             "Τόδε τὸ ἐγχειρίδιον τοῖς δεομένοις παρέχει προτύπους ὑποθήκας τῶν θεμελιωδῶν τοῦ βίου συμπεριφορῶν.\n\n"
             "Διαθέσιμα κεφάλαια (ἀριθμῷ {count}):\n"
             "{command_list}\n\n"
             "Πέμψον /<ὄνομα πράξεως> ἵνα λάβῃς τὸ πρότυπον πρωτόκολλον.\n"
-            "Τρεῖς γλῶσσαι ὑποστηρίζονται: Σινική / Λατινική / Ἀρχαία Ἑλληνική.\n"
-            "Σινιστὶ /生活参考 | Λατινιστὶ /index | Ἑλληνιστὶ /πιναξ"
+            "Τέσσαρες γλῶσσαι ὑποστηρίζονται: Σινική / Λατινική / Ἀρχαία Ἑλληνική / Ἰαπωνική.\n"
+            "Σινιστὶ /生活参考 | Λατινιστὶ /index | Ἑλληνιστὶ /πιναξ | Ἰαπωνιστὶ /もくじ"
         ),
         "ja": (
-            "📖 生活行動参考マニュアル v1.0\n"
+            "📖 生活行動参考マニュアル v1.1.0\n"
             "本マニュアルは必要とする利用者に対し、基礎的な生活行動の標準化された操作手引きを提供するものである。\n\n"
             "利用可能な項目（全 {count} 項目）：\n"
             "{command_list}\n\n"
