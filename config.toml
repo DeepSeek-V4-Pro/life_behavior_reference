@@ -1,0 +1,7 @@
+[plugin]
+enabled = true
+config_version = "1.0.0"
+
+[style]
+detail_level = "详细"
+show_version = true
