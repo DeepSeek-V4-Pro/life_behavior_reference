@@ -2,7 +2,7 @@
   "manifest_version": 2,
   "version": "1.1.0",
   "name": "生活行为参考",
-  "description": "提供基础生活行为的标准化参考指南，帮助用户了解和规范日常行为动作。涵盖进食、休眠、位移、社交等核心生活场景。",
+  "description": "提供基础生活行为的标准化参考指南，帮助用户了解和规范日常行为动作，适合有融入人类社会需求的用户。涵盖进食、休眠、位移、社交等核心生活场景。",
   "author": {
     "name": "DeepSeek-V4",
     "url": "https://github.com/DeepSeek-V4-Pro"
